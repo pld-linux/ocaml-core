@@ -28,7 +28,7 @@ BuildRequires:	ocaml-ppx_jane-devel >= 0.14
 BuildRequires:	ocaml-ppx_jane-devel < 0.15
 BuildRequires:	ocaml-sexplib-devel >= 0.14
 BuildRequires:	ocaml-sexplib-devel < 0.15
-BuildRequires:	ocaml-spawn >= 0.12
+BuildRequires:	ocaml-spawn-devel >= 0.12
 BuildRequires:	ocaml-timezone-devel >= 0.14
 BuildRequires:	ocaml-timezone-devel < 0.15
 %requires_eq	ocaml-runtime
@@ -60,7 +60,7 @@ Requires:	ocaml-core_kernel-devel >= 0.14
 Requires:	ocaml-jst-config-devel >= 0.14
 Requires:	ocaml-ppx_jane-devel >= 0.14
 Requires:	ocaml-sexplib-devel >= 0.14
-Requires:	ocaml-spawn >= 0.12
+Requires:	ocaml-spawn-devel >= 0.12
 Requires:	ocaml-timezone-devel >= 0.14
 
 %description devel
